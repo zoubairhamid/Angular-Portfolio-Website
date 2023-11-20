@@ -1,0 +1,34 @@
+  .panel-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: lightgrey;
+    cursor: pointer;
+    margin-bottom: 12px;
+    transition: all 0.75s;
+    box-shadow: 0 5px 5px -4px rgba(0, 0, 0,.7);
+  }
+
+  .panel-header:hover{ 
+    background-color: grey;
+  }
+  
+  .panel-content {
+    padding: 14px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 14px;
+    transition: all 0.5s;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0,.7);
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,27 @@
+.jumbotron{ 
+    padding: 2rem 1rem; 
+    background-color: lightblue;
+    color: black;
+}
+
+h1 {
+    font-family: Monospace, monospace;
+    font-size: 50px;
+    font-weight: bold; 
+    color: black;
+  }
+
+h1:hover{ 
+    cursor: default;
+}
+
+h3{ 
+    font-family: Monospace, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+h3:hover{ 
+    cursor: default;
+}

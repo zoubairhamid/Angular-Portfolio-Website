@@ -1,0 +1,15 @@
+.navbar-expand-md {
+    background-color: lightgrey;
+}
+
+.container {
+    background-color: lightgrey;
+}
+
+.nav-link.text-secondary:hover {
+    color: black !important;
+}
+
+.nav-link.text-dark:hover {
+    color: black !important;
+}

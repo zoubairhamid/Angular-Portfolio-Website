@@ -1,0 +1,118 @@
+<div class="resume-panel">
+    <button (click)="downloadPDF()">Download PDF</button>
+    <div class="panel-header" (click)="togglePanel('summary')">
+      Skills
+      <i class="material-icons">{{ isPanelOpen('summary') ? '' : '' }}</i>
+    </div>
+    <div class="panel-content" [hidden]="!isPanelOpen('summary')">
+        <h3>Languages:</h3>
+        <UL>
+            <LI> Python
+            <LI> Java
+            <LI> JavaScript
+            <LI> C++ 
+            <LI> C#
+            <LI> SQL
+            <LI> HTML
+            <LI> CSS
+            <LI> TypeScript
+            <LI> Kotlin
+        </UL>
+        <h3> Frameworks: </h3> 
+        <UL> 
+            <LI> Angular 
+            <LI> React 
+            <LI> Node.js
+            <LI> LibGDX
+        </UL>
+        <h3> Other: </h3> 
+        <UL> 
+            <LI> Version Control via Git
+        </UL> 
+    </div>
+  </div>
+  
+  <div class="resume-panel">
+    <div class="panel-header" (click)="togglePanel('experience')">
+      Education
+      <i class="material-icons">{{ isPanelOpen('experience') ? '' : '' }}</i>
+    </div>
+    <div class="panel-content" [hidden]="!isPanelOpen('experience')">
+        <h3> Undergraduate: </h3> 
+        <UL> 
+            <LI> University of Toronto: 2020-2026
+            <UL> 
+                <LI> Computer Science 
+                <LI> Mathematics
+            </UL>
+        </UL>
+        <h3> Secondary School: </h3>
+        <UL> 
+            <LI> Stephen Lewis Secondary School: 2016-2020
+        </UL>
+        
+    </div>
+  </div>
+  
+  <div class="resume-panel">
+    <div class="panel-header" (click)="togglePanel('extra')">
+      Extracurriculars and Clubs
+      <i class="material-icons">{{ isPanelOpen('extra') ? '' : '' }}</i>
+    </div>
+    <div class="panel-content" [hidden]="!isPanelOpen('extra')">
+        <h3> University of Toronto: </h3> 
+        <UL> 
+            <LI> Computer Science Student Community (CSSC)
+            <UL> 
+                <LI> 2020-Present
+            </UL>
+            <LI> Math Club
+                <UL> 
+                    <LI> 2020-Present
+                </UL>
+        </UL>
+        <h3> Stephen Lewis Secondary School: </h3>
+        <UL> 
+            <LI> PicoCTF 2019 Hacking Competition
+                <UL> 
+                    <LI> Ranked 11th in Canada
+                </UL>
+                <UL> 
+                    <LI> Ranked top 180 Globally
+                </UL>
+            <LI> Code Club
+                <UL> 
+                    <LI> 2018-2020
+                </UL>
+            <LI> Robotics Club
+                <UL> 
+                    <LI> 2019-2020
+                </UL>
+            <LI> ROPSSAA Volleyball
+                <UL> 
+                    <LI> MVP (3x) 
+                    <LI> Captain (3x)
+                </UL>
+            <LI> ROPSSAA Track and Field
+                <UL> 
+                    <LI> Top 10 Placement (2x) 
+                </UL>
+        </UL>
+        
+    </div>
+    <div class="resume-panel">
+        <div class="panel-header" (click)="togglePanel('cert')">
+          Certifications
+          <i class="material-icons">{{ isPanelOpen('cert') ? '' : '' }}</i>
+        </div>
+        <div class="panel-content" [hidden]="!isPanelOpen('cert')">
+            <h3> Red Cross: </h3>
+            <UL> 
+                <LI> Standard First-Aid & CPR/AED Type-C
+                    <UL> 
+                        <LI> 2023-2027
+                    </UL>
+            </UL>
+            
+        </div>
+  </div>
